@@ -57,6 +57,29 @@ class CreateConsultsTable extends Migration
             $table->string('av_duvida', 20)->nullable();
             $table->string('avaliaçao', 1)->nullable();
             $table->text('av_comment')->nullable();
+            $table->string('nome_paciente')->nullable();
+            $table->date('data_nascimento')->nullable();
+            $table->string('sexo')->nullable();
+            $table->string('cpf')->nullable();
+            $table->string('cns')->nullable();
+            $table->string('telefone')->nullable();
+            $table->string('endereco')->nullable();
+            $table->string('bairro')->nullable();
+            $table->string('cidade')->nullable();
+            $table->string('motivo')->nullable();
+            $table->text('fatores')->nullable();
+            $table->string('medicamento')->nullable();
+            $table->string('pressao')->nullable();
+            $table->string('peso')->nullable();
+            $table->string('altura')->nullable();
+            $table->string('localizacao')->nullable();
+            $table->string('intensidade')->nullable();
+            $table->string('irradiacao')->nullable();
+            $table->string('caracteristica')->nullable();
+            $table->string('episodio')->nullable();
+            $table->string('duracao')->nullable();
+            $table->string('recidiva')->nullable();
+            $table->string('sintomas')->nullable();
         });
     }
 
